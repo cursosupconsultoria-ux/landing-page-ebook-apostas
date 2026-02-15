@@ -100,13 +100,10 @@ export default function Home() {
         id="problem-section"
         className="py-32 relative overflow-hidden grain-overlay"
         style={{
-          backgroundImage: `url('https://private-us-east-1.manuscdn.com/sessionFile/dNWc6PfqniulR6PtPMtBZN/sandbox/PGcPTB8bI0qLrPmUDkWBQ1-img-4_1771116169000_na1fn_c3RhdGlzdGljcy1vdmVybGF5.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvZE5XYzZQZnFuaXVsUjZQdFBNdEJaTi9zYW5kYm94L1BHY1BUQjhiSTBxTHJQbVVEa1dCUTEtaW1nLTRfMTc3MTExNjE2OTAwMF9uYTFmbl9jM1JoZEdsemRHbGpjeTF2ZG1WeWJHRjUucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=EeWfvmasKgvvcvSzp0~BnQF4BHDSwsmx5kxwXg9yIBO3RqLtwueBLwOmcDHnC6PWVdFgWYgpakFFv8f1qSoMzMI-6aqbFc8I~v539I2-8K1EzOhxolw8646nEN1apCuQ4ElqQAyTw7DaEiHaKdV7x1g9LNrL60s23JJe9lAwZh6N3~YQAJaZB6XATLxUnZJdg7J82B6IGGsbb1MM5Skh64X0A6sUA-M0tVa3hjqhZDDdN8E0cFwa8M-ebqswMFOjcARnD36ik6EoXBMYavFjvAwTLhvInX0a-PQwVuyCKysdBRuRMh-xW2lriubGCPFuaMA9mVi~tOf0mEZ~fwwUQ__')`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
           backgroundColor: "#0a0a0a",
         }}
       >
-        <div className="absolute inset-0 bg-black/70" />
+        <div className="absolute inset-0 bg-black/40" />
         
         <div className="container relative z-10">
           <div className="max-w-5xl mx-auto">
@@ -164,12 +161,10 @@ export default function Home() {
       <section
         className="py-32 relative overflow-hidden grain-overlay"
         style={{
-          backgroundImage: `url('https://private-us-east-1.manuscdn.com/sessionFile/dNWc6PfqniulR6PtPMtBZN/sandbox/PGcPTB8bI0qLrPmUDkWBQ1-img-2_1771116167000_na1fn_dHJhbnNmb3JtYXRpb24tdmlzdWFs.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvZE5XYzZQZnFuaXVsUjZQdFBNdEJaTi9zYW5kYm94L1BHY1BUQjhiSTBxTHJQbVVEa1dCUTEtaW1nLTJfMTc3MTExNjE2NzAwMF9uYTFmbl9kSEpoYm5ObWIzSnRZWFJwYjI0dGRtbHpkV0ZzLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=X~d9x5~iLZdeSHjPLSkKuNbzes2nUb1lSXKrnrs6UdVhkuNRWldpX3Gfe~hLW19Y02fPDZZcagRaOyrI9bChH7Ughq0swVq-A6tTOGAgcVn3uDZ0XP6ahSpKcz2p~1rKwWED2jDXhcq6w2ycD6k0A01KCL8OCWXUr8ECASs2EkMBKGIZsTxucAZeakp8k5eoJ~yku2Dst2w8QWU7wFVeE4qediY-O4qreQPXTVF0Z1IaXxe8cUm5i87qlLN5LtlKYs4~KZrtUXaPKgh4mtPb7JxUGFdbmoYISgcNcta01~JZpiT2s0sZJv4nrcI5BT93CFrMu95VIl5U1IHLr2rRdQ__')`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundColor: "#f5f1e8",
         }}
       >
-        <div className="absolute inset-0 bg-white/80" />
+        <div className="absolute inset-0 bg-white/60" />
         
         <div className="container relative z-10">
           <div className="max-w-4xl mx-auto">
@@ -247,13 +242,10 @@ export default function Home() {
       <section
         className="py-32 relative overflow-hidden grain-overlay"
         style={{
-          backgroundImage: `url('https://private-us-east-1.manuscdn.com/sessionFile/dNWc6PfqniulR6PtPMtBZN/sandbox/PGcPTB8bI0qLrPmUDkWBQ1-img-3_1771116164000_na1fn_YXV0aG9yLXNlY3Rpb24tYmc.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvZE5XYzZQZnFuaXVsUjZQdFBNdEJaTi9zYW5kYm94L1BHY1BUQjhiSTBxTHJQbVVEa1dCUTEtaW1nLTNfMTc3MTExNjE2NDAwMF9uYTFmbl9ZWFYwYUc5eUxYTmxZM1JwYjI0dFltYy5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=Iaw6Aps8eJ5JonVj2pb1qFSyaXm2BOAxweLDi0OIkX6JopB0Q0-cgOk6kDA1LYreXttZGAq3y6Wmv~PONkWC5WXiISeNMu5h3zSOj2IlCJr02QdCjphyXwl3nFoHtWr~hICr0B8FxYjv0BdV3kgX0CmY-gdfv7kYRmoI7PyqTM8T4c7Wa9EL5MQ2ps0~oOsM0AwKYX-s26CL8cDHjzXkjnicGFHgUknYv-Jn1jh5omYKec-awG~G2X1Rkk0u9-Iyj9oXDwP53pQNyc93n0ggjc1Az-Ae7fQzArmIJUH6KpvWOT8a2oue9pICEZCYMpgUi7qtLLYXMES0LlbjxjjI3Q__')`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
           backgroundColor: "#f5f1e8",
         }}
       >
-        <div className="absolute inset-0 bg-[#f5f1e8]/90" />
+        <div className="absolute inset-0 bg-[#f5f1e8]/70" />
         
         <div className="container relative z-10">
           <div className="max-w-4xl mx-auto">
@@ -323,12 +315,10 @@ export default function Home() {
         id="cta-section"
         className="py-32 relative overflow-hidden grain-overlay"
         style={{
-          backgroundImage: `url('https://private-us-east-1.manuscdn.com/sessionFile/dNWc6PfqniulR6PtPMtBZN/sandbox/PGcPTB8bI0qLrPmUDkWBQ1-img-5_1771116168000_na1fn_Y3RhLXNlY3Rpb24tYmc.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvZE5XYzZQZnFuaXVsUjZQdFBNdEJaTi9zYW5kYm94L1BHY1BUQjhiSTBxTHJQbVVEa1dCUTEtaW1nLTVfMTc3MTExNjE2ODAwMF9uYTFmbl9ZM1JoTFhObFkzUnBiMjR0WW1jLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=sf6XgChXBCqCmGxv~FD1J3MrZouWn6xEndQ2oXyNJ~OTzmwoDUGrWYTMf9569JndIe6PZPJvEpY-F6O0XjO8z5XdOM8NPwmzLutucdw4-2W-y-PLjrTUfBpiata2ruHFrHOSkQxYD2A~Z-C~~~oldwMq9MRC87sKAbyWjRf3ptJ45vZBb7b0BsTspipRscLAPCCGbP8yE0uuR8l2TAZm4VwaGswqnOEIoPzZyuFQYUkhVt0-8~BAsST9JQdqBg4CiW2f5W1r3tat~3TbtiuNojFu99-KgW7vdTZtlGh3lz6yIM~RhuLL4ciyaRKbH7mZ-JAqlttG1X1rEJpliBCJWg__')`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundColor: "#e76f51",
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-[#e76f51]/90 via-[#e76f51]/80 to-[#2a9d8f]/90" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#e76f51] via-[#d65d42] to-[#2a9d8f]" />
         
         <div className="container relative z-10 text-center">
           <div className="max-w-4xl mx-auto">

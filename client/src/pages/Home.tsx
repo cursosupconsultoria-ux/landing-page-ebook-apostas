@@ -83,21 +83,28 @@ export default function Home() {
               apenas ciência e acolhimento.
             </p>
             
-            <Button
-              size="lg"
-              className="bg-[#A89080] hover:bg-[#8B7355] text-white text-xl px-12 py-8 rounded-none font-display tracking-wide pulse-cta shadow-2xl"
-              onClick={() => window.open('https://fcxfabricio.hotmart.host/ansiedade-e-o-vicio-em-apostas-online-como-o-cerebro-e-capturado-como-o-vicio-se-instala-e-como-e-possivel-recuperar-o-controle-27273c3b-a3e5-4800-abd0-a73323067881', '_blank')}
-            >
-              QUERO RECUPERAR MEU CONTROLE AGORA
-            </Button>
+            <div className="space-y-4">
+              <div className="inline-block bg-[#e76f51] text-white px-4 py-2 rounded text-sm font-bold animate-pulse">
+                ⏰ Oferta válida por 48 horas
+              </div>
+              <Button
+                size="lg"
+                className="bg-[#A89080] hover:bg-[#8B7355] text-white text-xl px-12 py-8 rounded-none font-display tracking-wide pulse-cta shadow-2xl block w-full"
+                onClick={() => window.open('https://fcxfabricio.hotmart.host/ansiedade-e-o-vicio-em-apostas-online-como-o-cerebro-e-capturado-como-o-vicio-se-instala-e-como-e-possivel-recuperar-o-controle-27273c3b-a3e5-4800-abd0-a73323067881', '_blank')}
+              >
+                QUERO RECUPERAR MEU CONTROLE AGORA
+              </Button>
+            </div>
           </div>
           
           <div className="flex-1 hidden md:flex justify-center">
-            <img 
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663357442783/slsMbVtiyzPNuMyF.jpg"
-              alt="Capa do E-book Ansiedade e Vício em Apostas"
-              className="max-w-sm h-auto drop-shadow-2xl animate-fade-in"
-            />
+            <div className="border-8 border-black rounded-lg overflow-hidden shadow-2xl">
+              <img 
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663357442783/slsMbVtiyzPNuMyF.jpg"
+                alt="Capa do E-book Ansiedade e Vício em Apostas"
+                className="max-w-sm h-auto animate-fade-in"
+              />
+            </div>
           </div>
           
           <button
@@ -386,6 +393,34 @@ export default function Home() {
             <p className="text-white/80 text-sm scroll-reveal" id="cta-disclaimer">
               * Este e-book não substitui acompanhamento psicológico ou psiquiátrico profissional.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Hope Section - You're Not Alone */}
+      <section className="py-32 relative overflow-hidden grain-overlay" style={{ backgroundColor: "#f5f1e8" }}>
+        <div className="container relative z-10">
+          <div className="max-w-4xl mx-auto text-center scroll-reveal" id="hope-section">
+            <h2 className="text-headline text-[#0a0a0a] mb-8">
+              VOCE NAO ESTA <span className="text-[#2a9d8f]">SOZINHO</span>
+            </h2>
+            <p className="text-2xl text-[#0a0a0a]/80 mb-12 leading-relaxed">
+              Mais de <strong>1.000 pessoas</strong> ja comecaram sua jornada de recuperacao com este conteudo.
+            </p>
+            <div className="grid md:grid-cols-3 gap-8 mb-12">
+              <div className="bg-white rounded-lg p-8 shadow-lg">
+                <div className="text-5xl font-bold text-[#e76f51] mb-4">1.000+</div>
+                <p className="text-lg text-[#0a0a0a]/80">Pessoas transformadas</p>
+              </div>
+              <div className="bg-white rounded-lg p-8 shadow-lg">
+                <div className="text-5xl font-bold text-[#2a9d8f] mb-4">4.9</div>
+                <p className="text-lg text-[#0a0a0a]/80">Avaliacao media</p>
+              </div>
+              <div className="bg-white rounded-lg p-8 shadow-lg">
+                <div className="text-5xl font-bold text-[#A89080] mb-4">7 dias</div>
+                <p className="text-lg text-[#0a0a0a]/80">Garantia total</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

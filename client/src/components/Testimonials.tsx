@@ -35,7 +35,7 @@ export default function Testimonials() {
       <div className="container">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-headline text-[#0a0a0a] mb-4 text-center scroll-reveal" id="testimonials-title">
-            QUEM LEU, <span className="text-[#2a9d8f]">TRANSFORMOU</span>
+            QUEM LEU, <span className="text-[#10b981]">TRANSFORMOU</span>
           </h2>
           
           <p className="text-center text-xl text-[#0a0a0a]/60 mb-16 scroll-reveal" id="testimonials-subtitle">
@@ -49,7 +49,7 @@ export default function Testimonials() {
                 className="bg-white border-2 border-[#0a0a0a] p-8 hover:shadow-2xl transition-shadow duration-300 scroll-reveal"
                 id={`testimonial-${index + 1}`}
               >
-                <Quote className="text-[#e76f51] mb-6" size={48} />
+                <Quote className="text-[#10b981] mb-6" size={48} />
                 
                 <p className="text-lg leading-relaxed text-[#0a0a0a]/80 mb-6">
                   "{testimonial.content}"
@@ -64,8 +64,8 @@ export default function Testimonials() {
                   </p>
                 </div>
                 
-                <div className="mt-4 bg-[#2a9d8f]/10 border-l-4 border-[#2a9d8f] p-4">
-                  <p className="text-sm font-bold text-[#2a9d8f]">
+                <div className="mt-4 bg-[#10b981]/10 border-l-4 border-[#10b981] p-4">
+                  <p className="text-sm font-bold text-[#10b981]">
                     {testimonial.highlight}
                   </p>
                 </div>

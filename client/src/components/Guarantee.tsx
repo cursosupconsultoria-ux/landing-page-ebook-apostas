@@ -6,10 +6,10 @@ export default function Guarantee() {
     <section className="py-24 bg-white">
       <div className="container">
         <div className="max-w-4xl mx-auto">
-          <Card className="bg-gradient-to-br from-[#2a9d8f] to-[#1a7a6e] border-4 border-[#0a0a0a] p-12 text-center scroll-reveal" id="guarantee-card">
+          <Card className="bg-gradient-to-br from-[#2563eb] via-[#1e40af] to-[#1e3a8a] border-4 border-[#0a0a0a] p-12 text-center scroll-reveal" id="guarantee-card">
             <Shield className="mx-auto text-white mb-6" size={80} />
             
-            <h3 className="text-4xl font-display text-white mb-6">
+            <h3 className="text-4xl font-display text-white mb-6 tracking-wider">
               GARANTIA INCONDICIONAL DE 7 DIAS
             </h3>
             
@@ -39,7 +39,7 @@ export default function Guarantee() {
               </div>
             </div>
             
-            <p className="text-white/60 text-sm mt-8">
+            <p className="text-white/70 text-sm mt-8 italic">
               Acreditamos tanto no valor deste conteúdo que assumimos todo o risco para você.
             </p>
           </Card>

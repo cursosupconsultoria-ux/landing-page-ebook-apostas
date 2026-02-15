@@ -52,16 +52,22 @@
   --font-display: 'Bebas Neue', sans-serif;
   --font-body: 'Lora', serif;
   --font-mono: 'JetBrains Mono', monospace;
+  
+  /* Color Psychology Tokens */
+  --color-orange: #e76f51; /* Urgência, ação, energia */
+  --color-blue: #2563eb; /* Confiança, profissionalismo, segurança */
+  --color-green: #10b981; /* Esperança, recuperação, crescimento */
+  --color-teal: #14b8a6; /* Transformação, bem-estar */
 }
 
 :root {
-  /* Color Philosophy: Contraste dramático entre escuridão (vício) e luz (recuperação) */
-  --primary: #e76f51; /* Terracota vibrante - urgência, transformação */
+  /* Color Philosophy: Harmonia Triádica (Alaranjado + Azul + Verde) */
+  --primary: #e76f51; /* Alaranjado - urgência, transformação, ação */
   --primary-foreground: #fafaf9;
-  --secondary: #2a9d8f; /* Azul cobalto elétrico - clareza mental */
+  --secondary: #2563eb; /* Azul - confiança, profissionalismo, segurança */
   --secondary-foreground: #fafaf9;
-  --accent: #e76f51;
-  --accent-foreground: #0a0a0a;
+  --accent: #10b981; /* Verde - esperança, recuperação, crescimento */
+  --accent-foreground: #fafaf9;
   --destructive: #dc2626;
   --destructive-foreground: #fafaf9;
   

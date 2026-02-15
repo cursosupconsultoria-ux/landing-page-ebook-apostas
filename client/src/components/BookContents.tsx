@@ -60,9 +60,9 @@ export default function BookContents() {
       <div className="container">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16 scroll-reveal" id="contents-header">
-            <BookOpen className="mx-auto text-[#e76f51] mb-6" size={64} />
+            <BookOpen className="mx-auto text-[#10b981] mb-6" size={64} />
             <h2 className="text-headline text-[#0a0a0a] mb-4">
-              O QUE VOCÊ VAI <span className="text-[#2a9d8f]">DESCOBRIR</span>
+              O QUE VOCÊ VAI <span className="text-[#10b981]">DESCOBRIR</span>
             </h2>
             <p className="text-xl text-[#0a0a0a]/60">
               10 capítulos que vão mudar sua compreensão sobre o vício em apostas
@@ -78,7 +78,7 @@ export default function BookContents() {
               >
                 <div className="flex gap-6 items-start">
                   <div className="flex-shrink-0">
-                    <div className="w-16 h-16 bg-gradient-to-br from-[#e76f51] to-[#2a9d8f] rounded-lg flex items-center justify-center">
+                    <div className="w-16 h-16 bg-gradient-to-br from-[#e76f51] via-[#2563eb] to-[#10b981] rounded-lg flex items-center justify-center">
                       <span className="text-3xl font-display text-white">
                         {chapter.number}
                       </span>
@@ -99,7 +99,7 @@ export default function BookContents() {
           </div>
           
           <div className="mt-16 text-center scroll-reveal" id="contents-footer">
-            <Card className="bg-gradient-to-br from-[#2a9d8f] to-[#1a7a6e] border-4 border-[#0a0a0a] p-8 inline-block">
+            <Card className="bg-gradient-to-br from-[#10b981] via-[#14b8a6] to-[#06b6d4] border-4 border-[#0a0a0a] p-8 inline-block">
               <p className="text-white text-2xl font-display">
                 <span className="text-5xl font-bold">57</span> PÁGINAS DE CONTEÚDO TRANSFORMADOR
               </p>

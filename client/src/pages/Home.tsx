@@ -69,26 +69,36 @@ export default function Home() {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/80" />
         
-        <div className="container relative z-10 text-center px-6">
-          <h1 className="text-display text-white mb-8 leading-none">
-            VOCÊ NÃO É FRACO.<br />
-            <span className="text-[#e76f51]">VOCÊ ESTÁ PRESO</span><br />
-            EM UM CICLO.
-          </h1>
+        <div className="container relative z-10 flex items-center justify-between gap-12 px-6">
+          <div className="flex-1">
+            <h1 className="text-display text-white mb-8 leading-none">
+              VOCÊ NÃO É FRACO.<br />
+              <span className="text-[#e76f51]">VOCÊ ESTÁ PRESO</span><br />
+              EM UM CICLO.
+            </h1>
+            
+            <p className="text-body-large text-white/90 mb-12">
+              Descubra como o cérebro é capturado pelas apostas, por que a força de vontade falha 
+              e o caminho real para retomar sua autonomia — sem julgamento, sem promessas mágicas, 
+              apenas ciência e acolhimento.
+            </p>
+            
+            <Button
+              size="lg"
+              className="bg-[#A89080] hover:bg-[#8B7355] text-white text-xl px-12 py-8 rounded-none font-display tracking-wide pulse-cta shadow-2xl"
+              onClick={() => window.open('https://fcxfabricio.hotmart.host/ansiedade-e-o-vicio-em-apostas-online-como-o-cerebro-e-capturado-como-o-vicio-se-instala-e-como-e-possivel-recuperar-o-controle-27273c3b-a3e5-4800-abd0-a73323067881', '_blank')}
+            >
+              QUERO RECUPERAR MEU CONTROLE AGORA
+            </Button>
+          </div>
           
-          <p className="text-body-large text-white/90 max-w-3xl mx-auto mb-12">
-            Descubra como o cérebro é capturado pelas apostas, por que a força de vontade falha 
-            e o caminho real para retomar sua autonomia — sem julgamento, sem promessas mágicas, 
-            apenas ciência e acolhimento.
-          </p>
-          
-          <Button
-            size="lg"
-            className="bg-[#A89080] hover:bg-[#8B7355] text-white text-xl px-12 py-8 rounded-none font-display tracking-wide pulse-cta shadow-2xl"
-            onClick={() => window.open('https://fcxfabricio.hotmart.host/ansiedade-e-o-vicio-em-apostas-online-como-o-cerebro-e-capturado-como-o-vicio-se-instala-e-como-e-possivel-recuperar-o-controle-27273c3b-a3e5-4800-abd0-a73323067881', '_blank')}
-          >
-            QUERO RECUPERAR MEU CONTROLE AGORA
-          </Button>
+          <div className="flex-1 hidden md:flex justify-center">
+            <img 
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663357442783/slsMbVtiyzPNuMyF.jpg"
+              alt="Capa do E-book Ansiedade e Vício em Apostas"
+              className="max-w-sm h-auto drop-shadow-2xl animate-fade-in"
+            />
+          </div>
           
           <button
             onClick={() => scrollToSection("problem-section")}

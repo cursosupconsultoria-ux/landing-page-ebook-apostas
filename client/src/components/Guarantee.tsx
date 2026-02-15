@@ -1,4 +1,5 @@
 import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { Shield, RefreshCw, Lock } from "lucide-react";
 
 export default function Guarantee() {
@@ -49,6 +50,14 @@ export default function Guarantee() {
             <p className="text-white/60 text-sm mt-8">
               Acreditamos tanto no valor deste conteúdo que assumimos todo o risco para você.
             </p>
+            
+            <Button
+              size="lg"
+              className="bg-white hover:bg-gray-100 text-[#2a9d8f] text-lg px-12 py-6 rounded-none font-display tracking-wide shadow-2xl mt-8"
+              onClick={() => window.open('https://fcxfabricio.hotmart.host/ansiedade-e-o-vicio-em-apostas-online-como-o-cerebro-e-capturado-como-o-vicio-se-instala-e-como-e-possivel-recuperar-o-controle-27273c3b-a3e5-4800-abd0-a73323067881', '_blank')}
+            >
+              COMPRAR COM GARANTIA - R$ 67,00
+            </Button>
           </Card>
         </div>
       </div>

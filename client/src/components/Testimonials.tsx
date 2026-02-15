@@ -1,4 +1,5 @@
 import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { Quote } from "lucide-react";
 
 interface Testimonial {
@@ -83,6 +84,27 @@ export default function Testimonials() {
           <p className="text-center text-sm text-[#0a0a0a]/40 mt-12 scroll-reveal" id="testimonials-disclaimer">
             * Depoimentos anônimos preservados por questões de privacidade
           </p>
+          
+          <div className="mt-20 flex flex-col md:flex-row items-center justify-center gap-12 scroll-reveal" id="testimonials-cta-section">
+            <div className="flex-1 flex justify-center">
+              <img 
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663357442783/wWjidIuoBmcbapBr.jpg"
+                alt="E-book Best Seller"
+                className="max-w-xs h-auto drop-shadow-2xl"
+              />
+            </div>
+            <div className="flex-1 text-center md:text-left">
+              <h3 className="text-subheadline text-[#0a0a0a] mb-6">Transforme sua vida com base em ciência e acolhimento</h3>
+              <p className="text-lg text-[#0a0a0a]/80 mb-8">Mais de 1000 pessoas já transformaram suas vidas com este conteúdo. Seja o próximo a dar o primeiro passo.</p>
+              <Button
+                size="lg"
+                className="bg-[#A89080] hover:bg-[#8B7355] text-white text-lg px-12 py-6 rounded-none font-display tracking-wide shadow-2xl"
+                onClick={() => window.open('https://fcxfabricio.hotmart.host/ansiedade-e-o-vicio-em-apostas-online-como-o-cerebro-e-capturado-como-o-vicio-se-instala-e-como-e-possivel-recuperar-o-controle-27273c3b-a3e5-4800-abd0-a73323067881', '_blank')}
+              >
+                COMPRAR AGORA - R$ 67,00
+              </Button>
+            </div>
+          </div>
         </div>
       </div>
     </section>

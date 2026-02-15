@@ -84,8 +84,8 @@ export default function Home() {
           
           <Button
             size="lg"
-            className="bg-[#e76f51] hover:bg-[#d65d42] text-white text-xl px-12 py-8 rounded-none font-display tracking-wide pulse-cta shadow-2xl"
-            onClick={() => scrollToSection("cta-section")}
+            className="bg-[#A89080] hover:bg-[#8B7355] text-white text-xl px-12 py-8 rounded-none font-display tracking-wide pulse-cta shadow-2xl"
+            onClick={() => window.open('https://fcxfabricio.hotmart.host/ansiedade-e-o-vicio-em-apostas-online-como-o-cerebro-e-capturado-como-o-vicio-se-instala-e-como-e-possivel-recuperar-o-controle-27273c3b-a3e5-4800-abd0-a73323067881', '_blank')}
           >
             QUERO RECUPERAR MEU CONTROLE AGORA
           </Button>
@@ -161,7 +161,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Solution Se      {/* Solution Section - Light Background with Image */}
+      {/* Solution Section - Light Background with Image */}
       <section
         className="py-32 relative overflow-hidden grain-overlay"
         style={{
@@ -178,7 +178,7 @@ export default function Home() {
         <div className="container relative z-10">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-headline text-[#0a0a0a] mb-16 text-center scroll-reveal" id="solution-title">
-              A MUDANÇA COMEÇA COM A <span className="text-[#2a9d8f]">CONSCIÊNCIA</span>
+              A MUDANCA COMECA COM A <span className="text-[#2a9d8f]">CONSCIENCIA</span>
             </h2>
             
             <div className="prose prose-lg max-w-none mb-16 scroll-reveal" id="solution-text">
@@ -347,11 +347,8 @@ export default function Home() {
               
               <Button
                 size="lg"
-                className="bg-[#e76f51] hover:bg-[#d65d42] text-white text-2xl px-16 py-10 rounded-none font-display tracking-wide pulse-cta shadow-2xl w-full md:w-auto"
-                onClick={() => {
-                  // TODO: Integrar com Hotmart
-                  alert("Redirecionando para checkout do Hotmart...");
-                }}
+                className="bg-[#A89080] hover:bg-[#8B7355] text-white text-2xl px-16 py-10 rounded-none font-display tracking-wide pulse-cta shadow-2xl w-full md:w-auto"
+                onClick={() => window.open('https://fcxfabricio.hotmart.host/ansiedade-e-o-vicio-em-apostas-online-como-o-cerebro-e-capturado-como-o-vicio-se-instala-e-como-e-possivel-recuperar-o-controle-27273c3b-a3e5-4800-abd0-a73323067881', '_blank')}
               >
                 QUERO RECUPERAR MEU CONTROLE AGORA
               </Button>

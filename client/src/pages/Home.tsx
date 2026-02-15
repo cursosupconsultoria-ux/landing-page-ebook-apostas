@@ -22,6 +22,7 @@ export default function Home() {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
             setIsVisible((prev) => ({
               ...prev,
               [entry.target.id]: true,
@@ -32,7 +33,9 @@ export default function Home() {
       { threshold: 0.1 }
     );
 
-    document.querySelectorAll(".scroll-reveal").forEach((el) => {
+    // Observe all scroll-reveal elements
+    const revealElements = document.querySelectorAll(".scroll-reveal");
+    revealElements.forEach((el) => {
       if (observerRef.current) {
         observerRef.current.observe(el);
       }
@@ -43,6 +46,8 @@ export default function Home() {
         observerRef.current.disconnect();
       }
     };
+    // Re-run when DOM changes
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const scrollToSection = (id: string) => {
@@ -103,7 +108,6 @@ export default function Home() {
           backgroundColor: "#0a0a0a",
         }}
       >
-        <div className="absolute inset-0 bg-black/40" />
         
         <div className="container relative z-10">
           <div className="max-w-5xl mx-auto">
@@ -164,7 +168,6 @@ export default function Home() {
           backgroundColor: "#f5f1e8",
         }}
       >
-        <div className="absolute inset-0 bg-white/60" />
         
         <div className="container relative z-10">
           <div className="max-w-4xl mx-auto">
@@ -245,7 +248,6 @@ export default function Home() {
           backgroundColor: "#f5f1e8",
         }}
       >
-        <div className="absolute inset-0 bg-[#f5f1e8]/70" />
         
         <div className="container relative z-10">
           <div className="max-w-4xl mx-auto">
@@ -318,7 +320,6 @@ export default function Home() {
           backgroundColor: "#e76f51",
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-[#e76f51] via-[#d65d42] to-[#2a9d8f]" />
         
         <div className="container relative z-10 text-center">
           <div className="max-w-4xl mx-auto">

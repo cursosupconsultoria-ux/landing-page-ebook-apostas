@@ -194,42 +194,42 @@ export default function Home() {
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="flex items-start gap-4">
-                  <Check className="text-[#10b981] flex-shrink-0 mt-1" size={24} />
+                  <Check className="text-[#2a9d8f] flex-shrink-0 mt-1" size={24} />
                   <span className="text-lg">Como o cérebro funciona no vício</span>
                 </div>
                 
                 <div className="flex items-start gap-4">
-                  <Check className="text-[#10b981] flex-shrink-0 mt-1" size={24} />
+                  <Check className="text-[#2a9d8f] flex-shrink-0 mt-1" size={24} />
                   <span className="text-lg">O papel real da ansiedade</span>
                 </div>
                 
                 <div className="flex items-start gap-4">
-                  <Check className="text-[#10b981] flex-shrink-0 mt-1" size={24} />
+                  <Check className="text-[#2a9d8f] flex-shrink-0 mt-1" size={24} />
                   <span className="text-lg">Por que a força de vontade falha</span>
                 </div>
                 
                 <div className="flex items-start gap-4">
-                  <Check className="text-[#10b981] flex-shrink-0 mt-1" size={24} />
+                  <Check className="text-[#2a9d8f] flex-shrink-0 mt-1" size={24} />
                   <span className="text-lg">Exemplos práticos de casos reais</span>
                 </div>
                 
                 <div className="flex items-start gap-4">
-                  <Check className="text-[#10b981] flex-shrink-0 mt-1" size={24} />
+                  <Check className="text-[#2a9d8f] flex-shrink-0 mt-1" size={24} />
                   <span className="text-lg">Orientações para reconhecimento</span>
                 </div>
                 
                 <div className="flex items-start gap-4">
-                  <Check className="text-[#10b981] flex-shrink-0 mt-1" size={24} />
+                  <Check className="text-[#2a9d8f] flex-shrink-0 mt-1" size={24} />
                   <span className="text-lg">Caminhos reais de recuperação</span>
                 </div>
                 
                 <div className="flex items-start gap-4">
-                  <Check className="text-[#10b981] flex-shrink-0 mt-1" size={24} />
+                  <Check className="text-[#2a9d8f] flex-shrink-0 mt-1" size={24} />
                   <span className="text-lg">Exercícios práticos aplicáveis</span>
                 </div>
                 
                 <div className="flex items-start gap-4">
-                  <Check className="text-[#10b981] flex-shrink-0 mt-1" size={24} />
+                  <Check className="text-[#2a9d8f] flex-shrink-0 mt-1" size={24} />
                   <span className="text-lg">Estratégias de prevenção</span>
                 </div>
               </div>
@@ -258,7 +258,7 @@ export default function Home() {
             <Card className="bg-white border-2 border-[#0a0a0a] p-12 shadow-2xl scroll-reveal" id="author-card">
               <div className="flex flex-col md:flex-row gap-12 items-start">
                 <div className="flex-shrink-0">
-                  <div className="w-48 h-48 bg-gradient-to-br from-[#2563eb] to-[#1e40af] rounded-full flex items-center justify-center">
+                  <div className="w-48 h-48 bg-gradient-to-br from-[#e76f51] to-[#2a9d8f] rounded-full flex items-center justify-center">
                     <Users size={80} className="text-white" />
                   </div>
                 </div>
@@ -267,15 +267,15 @@ export default function Home() {
                   <h3 className="text-4xl font-display mb-4">FABRICIO CANDIDO XAVIER</h3>
                   
                   <div className="flex flex-wrap gap-4 mb-6">
-                    <span className="inline-flex items-center gap-2 bg-[#2563eb] text-white px-4 py-2 rounded-full text-sm">
+                    <span className="inline-flex items-center gap-2 bg-[#2a9d8f] text-white px-4 py-2 rounded-full text-sm">
                       <Award size={16} />
                       Psicólogo
                     </span>
-                    <span className="inline-flex items-center gap-2 bg-[#2563eb] text-white px-4 py-2 rounded-full text-sm">
+                    <span className="inline-flex items-center gap-2 bg-[#2a9d8f] text-white px-4 py-2 rounded-full text-sm">
                       <BookOpen size={16} />
                       Gestão de Pessoas
                     </span>
-                    <span className="inline-flex items-center gap-2 bg-[#2563eb] text-white px-4 py-2 rounded-full text-sm">
+                    <span className="inline-flex items-center gap-2 bg-[#2a9d8f] text-white px-4 py-2 rounded-full text-sm">
                       <Users size={16} />
                       Saúde Emocional
                     </span>

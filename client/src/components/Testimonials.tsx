@@ -31,8 +31,15 @@ const testimonials: Testimonial[] = [
 
 export default function Testimonials() {
   return (
-    <section className="py-32 bg-gradient-to-b from-[#f5f1e8] to-white">
-      <div className="container">
+    <section className="py-32 bg-gradient-to-b from-[#f5f1e8] to-white relative overflow-hidden">
+      <div className="absolute left-0 top-1/2 -translate-y-1/2 w-1/4 h-96 opacity-15 pointer-events-none">
+        <img
+          src="https://private-us-east-1.manuscdn.com/sessionFile/dNWc6PfqniulR6PtPMtBZN/sandbox/4QO3x4FRueuv3PVGIyZUVB-img-3_1771119206000_na1fn_cmVjb3Zlcnktam91cm5leS1jb250ZXh0.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80"
+          alt="Jornada de recuperacao"
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <div className="container relative z-10">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-headline text-[#0a0a0a] mb-4 text-center scroll-reveal" id="testimonials-title">
             QUEM LEU, <span className="text-[#2a9d8f]">TRANSFORMOU</span>

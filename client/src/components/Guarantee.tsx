@@ -3,8 +3,15 @@ import { Shield, RefreshCw, Lock } from "lucide-react";
 
 export default function Guarantee() {
   return (
-    <section className="py-24 bg-white">
-      <div className="container">
+    <section className="py-24 bg-white relative overflow-hidden">
+      <div className="absolute right-0 top-0 w-1/3 h-full opacity-10 pointer-events-none">
+        <img
+          src="https://private-us-east-1.manuscdn.com/sessionFile/dNWc6PfqniulR6PtPMtBZN/sandbox/4QO3x4FRueuv3PVGIyZUVB-img-4_1771119205000_na1fn_dHJ1c3Qtc2FmZXR5LWNvbnRleHQ.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80"
+          alt="Confianca e seguranca"
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <div className="container relative z-10">
         <div className="max-w-4xl mx-auto">
           <Card className="bg-gradient-to-br from-[#2a9d8f] to-[#1a7a6e] border-4 border-[#0a0a0a] p-12 text-center scroll-reveal" id="guarantee-card">
             <Shield className="mx-auto text-white mb-6" size={80} />

@@ -161,17 +161,23 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Solution Section - Light Background with Transformation Visual */}
+      {/* Solution Se      {/* Solution Section - Light Background with Image */}
       <section
         className="py-32 relative overflow-hidden grain-overlay"
         style={{
           backgroundColor: "#f5f1e8",
         }}
       >
-        
+        <div className="absolute right-0 top-0 w-1/3 h-full opacity-20 pointer-events-none">
+          <img
+            src="https://private-us-east-1.manuscdn.com/sessionFile/dNWc6PfqniulR6PtPMtBZN/sandbox/4QO3x4FRueuv3PVGIyZUVB-img-2_1771119205000_na1fn_c29sdXRpb24taG9wZS1jb250ZXh0.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvZE5XYzZQZnFuaXVsUjZQdFBNdEJaTi9zYW5kYm94LzRRTzN4NEZSdWV1djNQVkdJeVpVVkItaW1nLTJfMTc3MTExOTIwNTAwMF9uYTFmbl9jMjlzZFhScGIyNHRhRzl3WlMxamIyNTBaWGgwLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=teW4xrCct20PXQmNN9Kstuzwuq3NN0h7-6q~UNsxhZ0cAYzrcUpfDoQMaU7sd9mF0L8Fgn1id8foOxmZkh8ZsgeUWrDQvRgiZSW9NmUpVtz3v0I2e8ic1gQRc4dmZ7j6J-gAEjceM0wCytUWe9G40nr39Ex7NnqdBg1szJHnSihwJKjSdKkuKzWTxOEBwXp9fT9Om7YPGNzmLzYmZ43nYN5iQV5yRhX0yQiG7W~YAPK8sMSNRn-Gtw3tQvKrJ~CW9WPvbzJj7SrTNOsAl9c2A-d9Fp3vFiClkPR4zIffmst1OVCcHw4A~qpVzYyPV-b-FyH1gi~yN4cB9320LHNBkA__"
+            alt="Solução e esperança"
+            className="w-full h-full object-cover"
+          />
+        </div>
         <div className="container relative z-10">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-headline text-[#0a0a0a] mb-12 scroll-reveal" id="solution-title">
+            <h2 className="text-headline text-[#0a0a0a] mb-16 text-center scroll-reveal" id="solution-title">
               A MUDANÇA COMEÇA COM A <span className="text-[#2a9d8f]">CONSCIÊNCIA</span>
             </h2>
             

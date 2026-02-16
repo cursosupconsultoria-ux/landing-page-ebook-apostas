@@ -6,6 +6,7 @@ import Testimonials from "@/components/Testimonials";
 import Guarantee from "@/components/Guarantee";
 import UrgencyBar from "@/components/UrgencyBar";
 import BookContents from "@/components/BookContents";
+import EmailCaptureModal from "@/components/EmailCaptureModal";
 
 /**
  * Landing Page - E-book "Ansiedade e o Vício em Apostas On-line"
@@ -525,6 +526,7 @@ export default function Home() {
           </div>
         </div>
       </footer>
+      <EmailCaptureModal />
     </div>
   );
 }

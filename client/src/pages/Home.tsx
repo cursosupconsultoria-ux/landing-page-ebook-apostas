@@ -90,7 +90,7 @@ export default function Home() {
               <Button
                 size="lg"
                 className="bg-[#A89080] hover:bg-[#8B7355] text-white text-xl px-12 py-8 rounded-none font-display tracking-wide pulse-cta shadow-2xl block w-full"
-                onClick={() => window.open('https://fcxfabricio.hotmart.host/ansiedade-e-o-vicio-em-apostas-online-como-o-cerebro-e-capturado-como-o-vicio-se-instala-e-como-e-possivel-recuperar-o-controle-27273c3b-a3e5-4800-abd0-a73323067881', '_blank')}
+                onClick={() => window.open('https://pay.hotmart.com/W104078613A', '_blank')}
               >
                 QUERO RECUPERAR MEU CONTROLE AGORA
               </Button>
@@ -105,7 +105,7 @@ export default function Home() {
                 className="w-full h-auto animate-fade-in rounded-lg shadow-2xl"
               />
               <button
-                onClick={() => window.open('https://fcxfabricio.hotmart.host/ansiedade-e-o-vicio-em-apostas-online-como-o-cerebro-e-capturado-como-o-vicio-se-instala-e-como-e-possivel-recuperar-o-controle-27273c3b-a3e5-4800-abd0-a73323067881', '_blank')}
+                onClick={() => window.open('https://pay.hotmart.com/W104078613A', '_blank')}
                 className="absolute bottom-8 left-1/2 -translate-x-1/2 bg-[#e76f51] hover:bg-[#d45a3a] text-white px-8 py-3 rounded font-bold text-lg transition-all shadow-lg hover:shadow-xl"
               >
                 COMPRE AGORA
@@ -371,7 +371,7 @@ export default function Home() {
               <Button
                 size="lg"
                 className="bg-[#A89080] hover:bg-[#8B7355] text-white text-2xl px-16 py-10 rounded-none font-display tracking-wide pulse-cta shadow-2xl w-full md:w-auto"
-                onClick={() => window.open('https://fcxfabricio.hotmart.host/ansiedade-e-o-vicio-em-apostas-online-como-o-cerebro-e-capturado-como-o-vicio-se-instala-e-como-e-possivel-recuperar-o-controle-27273c3b-a3e5-4800-abd0-a73323067881', '_blank')}
+                onClick={() => window.open('https://pay.hotmart.com/W104078613A', '_blank')}
               >
                 QUERO RECUPERAR MEU CONTROLE AGORA
               </Button>

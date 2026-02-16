@@ -99,7 +99,7 @@ export default function Testimonials() {
               <Button
                 size="lg"
                 className="bg-[#A89080] hover:bg-[#8B7355] text-white text-lg px-12 py-6 rounded-none font-display tracking-wide shadow-2xl"
-                onClick={() => window.open('https://fcxfabricio.hotmart.host/ansiedade-e-o-vicio-em-apostas-online-como-o-cerebro-e-capturado-como-o-vicio-se-instala-e-como-e-possivel-recuperar-o-controle-27273c3b-a3e5-4800-abd0-a73323067881', '_blank')}
+                onClick={() => window.open('https://pay.hotmart.com/W104078613A', '_blank')}
               >
                 COMPRAR AGORA - R$ 67,00
               </Button>

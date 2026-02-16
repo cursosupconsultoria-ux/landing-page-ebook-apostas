@@ -55,7 +55,7 @@ export function trackPurchaseClick() {
 export default function AnalyticsTracker() {
   useEffect(() => {
     // Adicionar Facebook Pixel
-    const facebookPixelId = process.env.REACT_APP_FACEBOOK_PIXEL_ID;
+    const facebookPixelId = import.meta.env.VITE_FACEBOOK_PIXEL_ID || (window as any).__FACEBOOK_PIXEL_ID__;
     if (facebookPixelId) {
       const script = document.createElement('script');
       script.async = true;
@@ -75,7 +75,7 @@ export default function AnalyticsTracker() {
     }
 
     // Adicionar Google Analytics
-    const googleAnalyticsId = process.env.REACT_APP_GOOGLE_ANALYTICS_ID;
+    const googleAnalyticsId = import.meta.env.VITE_GOOGLE_ANALYTICS_ID || (window as any).__GOOGLE_ANALYTICS_ID__;
     if (googleAnalyticsId) {
       const script = document.createElement('script');
       script.async = true;

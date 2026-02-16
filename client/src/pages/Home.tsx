@@ -494,14 +494,35 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#0a0a0a] text-white py-12 pb-20">
-        <div className="container text-center">
-          <p className="text-lg mb-4">
-            © 2026 Fabricio Candido Xavier • Todos os direitos reservados
-          </p>
-          <p className="text-white/60 text-sm">
-            contato@gestaofx.com.br
-          </p>
+      <footer className="bg-[#0a0a0a] text-white py-16 pb-20 border-t border-white/10">
+        <div className="container">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid md:grid-cols-3 gap-12 mb-12">
+              <div>
+                <h4 className="text-xl font-display text-[#e76f51] mb-4">PROJETO RECUPERAR CONTROLE</h4>
+                <p className="text-white/70 text-sm leading-relaxed">
+                  Uma iniciativa dedicada a transformar vidas atraves da educacao, acolhimento e ciencia.
+                </p>
+              </div>
+              <div>
+                <h4 className="text-lg font-bold text-white mb-4">Contato</h4>
+                <p className="text-white/70 text-sm">
+                  contato@gestaofx.com.br
+                </p>
+              </div>
+              <div>
+                <h4 className="text-lg font-bold text-white mb-4">Informacoes</h4>
+                <p className="text-white/70 text-sm">
+                  Este material e educativo e complementar ao acompanhamento profissional.
+                </p>
+              </div>
+            </div>
+            <div className="border-t border-white/10 pt-8 text-center">
+              <p className="text-white/50 text-xs">
+                © 2026 Projeto Recuperar Controle • Todos os direitos reservados
+              </p>
+            </div>
+          </div>
         </div>
       </footer>
     </div>

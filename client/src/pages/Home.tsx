@@ -97,13 +97,19 @@ export default function Home() {
             </div>
           </div>
           
-          <div className="flex-1 hidden md:flex justify-center">
-            <div className="border-8 border-black rounded-lg overflow-hidden shadow-2xl">
+          <div className="flex-1 hidden md:flex justify-center relative">
+            <div className="relative max-w-md w-full">
               <img 
-                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663357442783/slsMbVtiyzPNuMyF.jpg"
-                alt="Capa do E-book Ansiedade e Vício em Apostas"
-                className="max-w-sm h-auto animate-fade-in"
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663357442783/aHIVZisKJRttqkit.jpeg"
+                alt="Descubra as Armadilhas do Vício em Apostas"
+                className="w-full h-auto animate-fade-in rounded-lg shadow-2xl"
               />
+              <button
+                onClick={() => window.open('https://fcxfabricio.hotmart.host/ansiedade-e-o-vicio-em-apostas-online-como-o-cerebro-e-capturado-como-o-vicio-se-instala-e-como-e-possivel-recuperar-o-controle-27273c3b-a3e5-4800-abd0-a73323067881', '_blank')}
+                className="absolute bottom-8 left-1/2 -translate-x-1/2 bg-[#e76f51] hover:bg-[#d45a3a] text-white px-8 py-3 rounded font-bold text-lg transition-all shadow-lg hover:shadow-xl"
+              >
+                COMPRE AGORA
+              </button>
             </div>
           </div>
           

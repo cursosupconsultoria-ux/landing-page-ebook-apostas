@@ -404,6 +404,112 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Workbook Section - Complementary Product */}
+      <section className="py-32 relative overflow-hidden" style={{ backgroundColor: "#2a9d8f" }}>
+        <div className="container relative z-10">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-headline text-white mb-8 text-center scroll-reveal" id="workbook-title">
+              APROFUNDE SUA <span className="text-[#f4a261]">RECUPERACAO</span>
+            </h2>
+            
+            <p className="text-xl text-white/90 mb-16 text-center leading-relaxed scroll-reveal" id="workbook-subtitle">
+              Complemento prático com exercícios terapêuticos baseados em TCC
+            </p>
+            
+            <div className="grid md:grid-cols-2 gap-12 mb-16">
+              {/* Workbook Card */}
+              <Card className="bg-white border-4 border-[#0a0a0a] p-10 scroll-reveal" id="workbook-card">
+                <div className="mb-8">
+                  <h3 className="text-2xl font-bold text-[#0a0a0a] mb-4">📚 Workbook de Exercícios</h3>
+                  <p className="text-lg text-[#0a0a0a]/80 mb-6">
+                    Ansiedade e o Vício em Apostas On-Line
+                  </p>
+                </div>
+                
+                <div className="space-y-4 mb-8">
+                  <div className="flex items-start gap-3">
+                    <Check className="text-[#e76f51] flex-shrink-0 mt-1" size={20} />
+                    <span className="text-[#0a0a0a]/80">5 capítulos com exercícios práticos</span>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Check className="text-[#e76f51] flex-shrink-0 mt-1" size={20} />
+                    <span className="text-[#0a0a0a]/80">Diários de impacto e gatilhos</span>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Check className="text-[#e76f51] flex-shrink-0 mt-1" size={20} />
+                    <span className="text-[#0a0a0a]/80">Técnicas de relaxamento e mindfulness</span>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Check className="text-[#e76f51] flex-shrink-0 mt-1" size={20} />
+                    <span className="text-[#0a0a0a]/80">Plano de prevenção de recaídas</span>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Check className="text-[#e76f51] flex-shrink-0 mt-1" size={20} />
+                    <span className="text-[#0a0a0a]/80">Baseado em Terapia Cognitivo-Comportamental</span>
+                  </div>
+                </div>
+                
+                <div className="mb-8 p-6 bg-[#f5f1e8] rounded-lg">
+                  <div className="text-4xl font-bold text-[#e76f51] mb-2">R$ 47,00</div>
+                  <p className="text-sm text-[#0a0a0a]/60">Acesso imediato • PDF interativo</p>
+                </div>
+                
+                <Button
+                  size="lg"
+                  className="bg-[#e76f51] hover:bg-[#d85a3d] text-white font-bold py-3 px-8 rounded-lg w-full text-lg"
+                  onClick={() => window.open('https://pay.hotmart.com/L104480783A', '_blank')}
+                >
+                  COMPRAR WORKBOOK AGORA
+                </Button>
+              </Card>
+              
+              {/* Why Get Workbook */}
+              <div className="flex flex-col justify-center scroll-reveal" id="workbook-benefits">
+                <h3 className="text-2xl font-bold text-white mb-8">Por que complementar com o Workbook?</h3>
+                
+                <div className="space-y-6">
+                  <div>
+                    <h4 className="text-lg font-bold text-[#f4a261] mb-2">✓ Aprendizado Prático</h4>
+                    <p className="text-white/90">Transforme o conhecimento teórico em ações concretas com exercícios estruturados.</p>
+                  </div>
+                  
+                  <div>
+                    <h4 className="text-lg font-bold text-[#f4a261] mb-2">✓ Autoavaliação Contínua</h4>
+                    <p className="text-white/90">Diários e tabelas para monitorar seu progresso e identificar padrões.</p>
+                  </div>
+                  
+                  <div>
+                    <h4 className="text-lg font-bold text-[#f4a261] mb-2">✓ Ferramentas Terapêuticas</h4>
+                    <p className="text-white/90">Técnicas de relaxamento, mindfulness e gestão de ansiedade prontas para usar.</p>
+                  </div>
+                  
+                  <div>
+                    <h4 className="text-lg font-bold text-[#f4a261] mb-2">✓ Plano Personalizado</h4>
+                    <p className="text-white/90">Construa seu próprio plano de recuperação e prevenção de recaídas.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            {/* Bundle Offer */}
+            <Card className="bg-[#f4a261] border-4 border-white p-8 text-center scroll-reveal" id="bundle-offer">
+              <h3 className="text-2xl font-bold text-white mb-4">🎁 OFERTA ESPECIAL</h3>
+              <p className="text-lg text-white/90 mb-6">
+                Compre o E-book + Workbook e economize!
+              </p>
+              <div className="flex justify-center gap-8 mb-8 items-center">
+                <div>
+                  <p className="text-sm text-white/80 mb-2">E-book + Workbook</p>
+                  <p className="text-3xl font-bold text-white">R$ 97,00</p>
+                  <p className="text-xs text-white/70 line-through">R$ 114,00</p>
+                </div>
+              </div>
+              <p className="text-white/80 text-sm">Ambos com garantia de 7 dias</p>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Hope Section - You're Not Alone */}
       <section className="py-32 relative overflow-hidden grain-overlay" style={{ backgroundColor: "#f5f1e8" }}>
         <div className="container relative z-10">

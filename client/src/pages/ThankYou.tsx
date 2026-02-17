@@ -142,7 +142,7 @@ export default function ThankYou() {
               <ArrowRight className="w-5 h-5" />
             </Button>
             <Button
-              onClick={() => window.open('https://www.instagram.com/recuperarcontrole', '_blank')}
+              onClick={() => window.open('https://www.instagram.com/psicologofabricioxavier', '_blank')}
               className="w-full bg-[#2a9d8f] hover:bg-[#1f7a72] text-white font-bold py-4 rounded-lg transition-all text-lg flex items-center justify-center gap-2"
             >
               Seguir no Instagram para dicas exclusivas
@@ -201,9 +201,9 @@ export default function ThankYou() {
                   Estamos aqui para você! Entre em contato através de:
                 </p>
                 <ul className="mt-3 space-y-2 text-gray-700">
-                  <li>📧 Email: contato@recuperarcontrole.com.br</li>
-                  <li>💬 WhatsApp: (11) 99999-9999</li>
-                  <li>📱 Instagram: @recuperarcontrole</li>
+                  <li>📧 Email: contato@gestaofx.com.br</li>
+                  <li>💬 WhatsApp: (19) 98420-7525</li>
+                  <li>📱 Instagram: @psicologofabricioxavier</li>
                 </ul>
               </div>
             </div>
@@ -218,7 +218,7 @@ export default function ThankYou() {
               Estamos aqui para garantir que você tenha a melhor experiência possível.
             </p>
             <Button
-              onClick={() => window.location.href = 'mailto:contato@recuperarcontrole.com.br'}
+              onClick={() => window.location.href = 'mailto:contato@gestaofx.com.br'}
               className="bg-white text-[#e76f51] hover:bg-gray-100 font-bold py-3 px-8 rounded-lg transition-all"
             >
               Enviar email para suporte

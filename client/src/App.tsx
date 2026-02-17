@@ -14,6 +14,7 @@ import Ebook01_02ThankYou from "./pages/Ebook01_02ThankYou";
 import Ebook01_03 from "./pages/Ebook01_03";
 import Ebook01_03ThankYou from "./pages/Ebook01_03ThankYou";
 import AnalyticsTracker from "./components/AnalyticsTracker";
+import { TrackingPixels } from "./components/TrackingPixels";
 
 
 function Router() {
@@ -63,6 +64,7 @@ function App() {
       >
         <TooltipProvider>
           <Toaster />
+          <TrackingPixels />
           <AnalyticsTracker />
           <Router />
         </TooltipProvider>

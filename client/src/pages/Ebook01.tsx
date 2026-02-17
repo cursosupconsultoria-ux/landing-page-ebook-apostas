@@ -7,6 +7,7 @@ import Guarantee from "@/components/Guarantee";
 import UrgencyBar from "@/components/UrgencyBar";
 import BookContents from "@/components/BookContents";
 import EmailCaptureModal from "@/components/EmailCaptureModal";
+import { MetaPixel } from "@/components/MetaPixel";
 
 /**
  * Landing Page - E-book "Ansiedade e o Vício em Apostas On-line"
@@ -57,6 +58,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen">
+      <MetaPixel />
       <UrgencyBar />
       {/* Hero Section - Dark, Dramatic */}
       <section

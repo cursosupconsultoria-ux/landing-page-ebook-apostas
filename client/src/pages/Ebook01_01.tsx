@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Check, ArrowRight } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
+import { MetaPixel } from "@/components/MetaPixel";
 
 /**
  * Landing Page Ebook 01_01 - Ansiedade e Impulsividade
@@ -46,6 +47,7 @@ export default function Ebook01_01() {
 
   return (
     <div className="min-h-screen bg-white">
+      <MetaPixel />
       {/* Hero Section */}
       <section className="py-16 md:py-24 bg-gradient-to-br from-blue-50 to-white border-b border-blue-100">
         <div className="container">

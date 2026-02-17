@@ -132,6 +132,63 @@ export default function ThankYou() {
             </div>
           </div>
 
+          {/* Workbook Upsell Section */}
+          <div className="bg-gradient-to-r from-[#2a9d8f] to-[#1f7a72] rounded-lg p-8 mb-16 shadow-lg">
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              {/* Workbook Image */}
+              <div className="flex justify-center">
+                <img 
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663357442783/YoqxOASYNIXjtshS.png" 
+                  alt="Workbook de Exercícios" 
+                  className="w-full max-w-sm rounded-lg shadow-xl"
+                />
+              </div>
+              
+              {/* Workbook Details */}
+              <div className="text-white">
+                <h3 className="text-3xl font-bold mb-4">📚 Aprofunde sua Recuperação</h3>
+                <p className="text-lg mb-6 leading-relaxed">
+                  Complemento essencial ao e-book! O Workbook de Exercícios oferece ferramentas práticas baseadas em Terapia Cognitivo-Comportamental para você aplicar imediatamente.
+                </p>
+                
+                <div className="space-y-3 mb-8">
+                  <div className="flex items-start gap-3">
+                    <span className="text-2xl">✓</span>
+                    <span className="text-white/90">5 capítulos com exercícios estruturados</span>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="text-2xl">✓</span>
+                    <span className="text-white/90">Diários de impacto e identificação de gatilhos</span>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="text-2xl">✓</span>
+                    <span className="text-white/90">Técnicas de relaxamento e mindfulness</span>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="text-2xl">✓</span>
+                    <span className="text-white/90">Plano personalizado de prevenção de recaídas</span>
+                  </div>
+                </div>
+                
+                <div className="bg-white/20 rounded-lg p-4 mb-6">
+                  <p className="text-sm text-white/80 mb-2">Preço normal: <span className="line-through">R$ 47,00</span></p>
+                  <div className="flex items-baseline gap-2">
+                    <span className="text-4xl font-bold text-[#f4a261]">R$ 19,00</span>
+                    <span className="text-lg text-white/80">60% OFF</span>
+                  </div>
+                  <p className="text-xs text-white/70 mt-2">Oferta exclusiva para compradores do e-book</p>
+                </div>
+                
+                <Button
+                  onClick={() => window.open('https://pay.hotmart.com/L104480783A', '_blank')}
+                  className="w-full bg-[#f4a261] hover:bg-[#e89a4a] text-[#0a0a0a] font-bold py-4 rounded-lg transition-all text-lg"
+                >
+                  COMPRAR WORKBOOK AGORA
+                </Button>
+              </div>
+            </div>
+          </div>
+
           {/* CTA Buttons */}
           <div className="space-y-3 mb-16">
             <Button

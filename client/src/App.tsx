@@ -4,17 +4,26 @@ import NotFound from "@/pages/NotFound";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import Home from "./pages/Home";
-import ThankYou from "./pages/ThankYou";
+import Index from "./pages/Index";
+import Ebook01 from "./pages/Ebook01";
+import Ebook01ThankYou from "./pages/Ebook01ThankYou";
 import AnalyticsTracker from "./components/AnalyticsTracker";
 
 
 function Router() {
   return (
     <Switch>
-      <Route path={"/"} component={Home} />
-      <Route path={"/obrigado"} component={ThankYou} />
-      <Route path={"/thank-you"} component={ThankYou} />
+      {/* Hub Principal */}
+      <Route path={"/"} component={Index} />
+      
+      {/* E-book 01 */}
+      <Route path={"/ebook01"} component={Ebook01} />
+      <Route path={"/ebook01/obrigado"} component={Ebook01ThankYou} />
+      
+      {/* Rotas legadas para compatibilidade */}
+      <Route path={"/obrigado"} component={Ebook01ThankYou} />
+      <Route path={"/thank-you"} component={Ebook01ThankYou} />
+      
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

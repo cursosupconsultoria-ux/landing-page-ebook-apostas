@@ -450,14 +450,14 @@ export default function Home() {
                 </div>
                 
                 <div className="mb-8 p-6 bg-[#f5f1e8] rounded-lg">
-                  <div className="text-4xl font-bold text-[#e76f51] mb-2">R$ 47,00</div>
+                  <div className="text-4xl font-bold text-[#e76f51] mb-2">R$ 17,00</div>
                   <p className="text-sm text-[#0a0a0a]/60">Acesso imediato • PDF interativo</p>
                 </div>
                 
                 <Button
                   size="lg"
                   className="bg-[#e76f51] hover:bg-[#d85a3d] text-white font-bold py-3 px-8 rounded-lg w-full text-lg"
-                  onClick={() => window.open('https://pay.hotmart.com/L104480783A', '_blank')}
+                  onClick={() => window.open('https://pay.hotmart.com/L104480783A?checkoutMode=2', '_blank')}
                 >
                   COMPRAR WORKBOOK AGORA
                 </Button>
@@ -500,8 +500,7 @@ export default function Home() {
               <div className="flex justify-center gap-8 mb-8 items-center">
                 <div>
                   <p className="text-sm text-white/80 mb-2">E-book + Workbook</p>
-                  <p className="text-3xl font-bold text-white">R$ 97,00</p>
-                  <p className="text-xs text-white/70 line-through">R$ 114,00</p>
+                  <p className="text-3xl font-bold text-white">R$ 84,00</p>
                 </div>
               </div>
               <p className="text-white/80 text-sm">Ambos com garantia de 7 dias</p>

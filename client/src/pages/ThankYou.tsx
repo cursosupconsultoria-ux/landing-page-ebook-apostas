@@ -171,12 +171,10 @@ export default function ThankYou() {
                 </div>
                 
                 <div className="bg-white/20 rounded-lg p-4 mb-6">
-                  <p className="text-sm text-white/80 mb-2">Preço normal: <span className="line-through">R$ 47,00</span></p>
                   <div className="flex items-baseline gap-2">
-                    <span className="text-4xl font-bold text-[#f4a261]">R$ 19,00</span>
-                    <span className="text-lg text-white/80">60% OFF</span>
+                    <span className="text-4xl font-bold text-[#f4a261]">R$ 17,00</span>
                   </div>
-                  <p className="text-xs text-white/70 mt-2">Oferta exclusiva para compradores do e-book</p>
+                  <p className="text-xs text-white/70 mt-2">Acesso imediato • PDF interativo</p>
                 </div>
                 
                 <Button

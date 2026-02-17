@@ -543,6 +543,45 @@ export default function Home() {
       {/* Guarantee Section */}
       <Guarantee />
 
+      {/* Final CTA Section */}
+      <section className="py-32 relative overflow-hidden" style={{ backgroundColor: "#2a9d8f" }}>
+        <div className="container relative z-10">
+          <div className="max-w-4xl mx-auto">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="scroll-reveal" id="final-cta-text">
+                <h2 className="text-4xl md:text-5xl font-display text-white mb-6 leading-tight">
+                  TRANSFORME SUA VIDA COM BASE EM CIÊNCIA E ACOLHIMENTO
+                </h2>
+                <p className="text-xl text-white/90 mb-8 leading-relaxed">
+                  Mais de 1000 pessoas já transformaram suas vidas com este conteúdo. Seja o próximo a dar o primeiro passo.
+                </p>
+                <Button
+                  size="lg"
+                  className="bg-[#A89080] hover:bg-[#8B7355] text-white font-bold py-4 px-8 rounded-lg text-lg w-full md:w-auto"
+                  onClick={() => window.open('https://pay.hotmart.com/W104078613A?off=zm6o3yqu&checkoutMode=10&bid=1771300889140', '_blank')}
+                >
+                  COMPRAR AGORA - R$ 87,00
+                </Button>
+              </div>
+              
+              <div className="flex justify-center scroll-reveal" id="final-cta-visual">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8 border border-white/20">
+                  <div className="text-center">
+                    <div className="text-6xl mb-4">📚</div>
+                    <h3 className="text-2xl font-bold text-white mb-4">E-book + Workbook</h3>
+                    <p className="text-white/80 mb-6">Acesso imediato ao material completo com garantia de 7 dias</p>
+                    <div className="bg-white/20 rounded-lg p-4">
+                      <p className="text-white/70 text-sm mb-2">Valor total:</p>
+                      <p className="text-3xl font-bold text-[#f4a261]">R$ 84,00</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-32 bg-[#f5f1e8]">
         <div className="container">

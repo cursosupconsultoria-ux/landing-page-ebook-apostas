@@ -8,6 +8,7 @@ import UrgencyBar from "@/components/UrgencyBar";
 import BookContents from "@/components/BookContents";
 import EmailCaptureModal from "@/components/EmailCaptureModal";
 import { MetaPixel } from "@/components/MetaPixel";
+import { TikTokPixel } from "@/components/TikTokPixel";
 
 /**
  * Landing Page - E-book "Ansiedade e o Vício em Apostas On-line"
@@ -59,6 +60,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <MetaPixel />
+      <TikTokPixel />
       <UrgencyBar />
       {/* Hero Section - Dark, Dramatic */}
       <section

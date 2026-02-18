@@ -3,6 +3,7 @@ import { Card } from "@/components/ui/card";
 import { Check, ArrowRight, TrendingUp, Brain, Shield } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { MetaPixel } from "@/components/MetaPixel";
+import { TikTokPixel } from "@/components/TikTokPixel";
 
 /**
  * Landing Page Ebook 01_03 - Inteligência Financeira e Autonomia
@@ -48,6 +49,7 @@ export default function Ebook01_03() {
   return (
     <div className="min-h-screen bg-slate-950 text-white">
       <MetaPixel />
+      <TikTokPixel />
       {/* Hero Section */}
       <section className="py-16 md:py-24 bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950 border-b border-emerald-600/30">
         <div className="container">

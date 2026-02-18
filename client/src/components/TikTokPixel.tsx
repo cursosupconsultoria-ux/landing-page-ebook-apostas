@@ -1,7 +1,22 @@
 import { useEffect } from 'react';
 
+/**
+ * TikTok Pixel Component
+ * ID: D6AH6J3C77U2V3Q5JOQG
+ * 
+ * Modo de Teste:
+ * - Adicione ?tiktok_test=true à URL para ativar modo de teste
+ * - Código de teste: TEST14972
+ * - Eventos serão enviados com test_event_code para validação no TikTok Ads Manager
+ */
+
 export function TikTokPixel() {
   useEffect(() => {
+    // Verificar se está em modo de teste
+    const urlParams = new URLSearchParams(window.location.search);
+    const isTestMode = urlParams.get('tiktok_test') === 'true';
+    const testEventCode = 'TEST14972';
+
     // TikTok Pixel Code
     const script = document.createElement('script');
     script.innerHTML = `
@@ -29,7 +44,72 @@ export function TikTokPixel() {
     `;
     script.async = true;
     document.head.appendChild(script);
+
+    // Se estiver em modo de teste, enviar evento de teste
+    if (isTestMode) {
+      // Aguardar o TikTok Pixel carregar
+      const checkTTQ = setInterval(() => {
+        if (window.ttq) {
+          clearInterval(checkTTQ);
+          
+          // Enviar evento de teste
+          window.ttq.track('PageView', {
+            test_event_code: testEventCode,
+          });
+
+          // Log no console para confirmação
+          console.log('✅ TikTok Pixel - Evento de teste enviado');
+          console.log('Código de teste:', testEventCode);
+          console.log('Verifique em: TikTok Ads Manager > Eventos > Seu Pixel > Teste de Eventos');
+        }
+      }, 100);
+
+      // Timeout após 5 segundos
+      setTimeout(() => clearInterval(checkTTQ), 5000);
+    }
+
+    // Rastrear cliques em CTAs com TikTok Pixel
+    const trackCTAClick = (buttonText: string) => {
+      if (window.ttq) {
+        const eventData: any = {
+          content_name: buttonText,
+          content_type: 'product',
+          value: 67, // Valor do e-book em reais
+          currency: 'BRL',
+        };
+
+        // Adicionar código de teste se em modo de teste
+        if (isTestMode) {
+          eventData.test_event_code = testEventCode;
+        }
+
+        window.ttq.track('AddToCart', eventData);
+      }
+    };
+
+    // Adicionar listeners aos botões CTA
+    const ctaButtons = document.querySelectorAll('[data-tiktok-cta]');
+    ctaButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        const buttonText = button.textContent || 'CTA Button';
+        trackCTAClick(buttonText);
+      });
+    });
+
+    return () => {
+      // Cleanup
+      ctaButtons.forEach((button) => {
+        button.removeEventListener('click', () => {});
+      });
+    };
   }, []);
 
   return null;
+}
+
+// Estender window para TypeScript
+declare global {
+  interface Window {
+    ttq?: any;
+  }
 }
